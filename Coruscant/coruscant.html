@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="coruscant.css" />
+    <link href="../pics/brown.png" rel="icon" type="image/x-icon" />
+    <title>Coruscant</title>
+  </head>
+  <body>
+    <div class="purple row1 center-content">
+      <img src="../pics/CoruscantTitle.png" />
+    </div>
+    <div class="row2">
+      <div class="light-grey box2 center-content">
+        <img
+          src="../pics/Darth_Sidious.png"
+          class="picclick"
+          onclick="playQuote()"
+        />
+      </div>
+      <div class="grey box3">
+        <div class="green square2 center-content">
+          <img src="../pics/CoruscantMission.png" />
+        </div>
+        <div class="grey rectangle2 center-content">
+          <img
+            src="../pics/ReturnToMapCoruscant.png"
+            class="returnclick"
+            onclick="returnToMap()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="coruscant.js"></script>
+  </body>
+</html>
+<audio src="../sounds/Click.m4a" id="click"></audio>
+<audio src="../sounds/SidiousQuote.m4a" id="sidious"></audio>

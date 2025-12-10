@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="hoth.css" />
+    <link href="../pics/ice.png" rel="icon" type="image/x-icon" />
+    <title>Hoth</title>
+  </head>
+  <body>
+    <div class="grey row1 center-content">
+      <img src="../pics/HothTitle.png" />
+    </div>
+    <div class="row2">
+      <div class="blue box2 center-content">
+        <img src="../pics/Luke.jpeg" class="picclick" onclick="playQuote()" />
+      </div>
+      <div class="purple box3">
+        <div class="light-grey square2 center-content">
+          <img src="../pics/HothMission.png" />
+        </div>
+        <div class="light-grey rectangle2 center-content">
+          <img
+            src="../pics/ReturnToMapHoth.png"
+            class="returnclick"
+            onclick="returnToMap()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="hoth.js"></script>
+  </body>
+</html>
+<audio src="../sounds/Click.m4a" id="click"></audio>
+<audio src="../sounds/LukeQuote.m4a" id="luke"></audio>

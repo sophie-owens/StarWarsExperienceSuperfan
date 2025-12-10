@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="deathstar.css" />
+    <link href="../pics/silver.png" rel="icon" type="image/x-icon" />
+    <title>Death Star</title>
+  </head>
+  <body>
+    <div class="black row1 center-content">
+      <img src="../pics/DeathStarTitle.png" />
+    </div>
+    <div class="row2">
+      <div class="dark-grey box2 center-content">
+        <img
+          src="../pics/DarthVader.jpg"
+          class="picclick"
+          onclick="playQuote()"
+        />
+      </div>
+      <div class="purple box3">
+        <div class="light-grey square2 center-content">
+          <img src="../pics/StarMission.png" />
+        </div>
+        <div class="light-grey rectangle2 center-content">
+          <img
+            src="../pics/ReturntoMapDeathStar.png"
+            class="returnclick"
+            onclick="returnToMap()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="deathstar.js"></script>
+  </body>
+</html>
+<audio src="../sounds/Click.m4a" id="click"></audio>
+<audio src="../sounds/VaderBreathing.mp3" id="breathe"></audio>

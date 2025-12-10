@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="map.css" />
+    <link href="../pics/dots.png" rel="icon" type="image/x-icon" />
+    <title>MAP</title>
+  </head>
+  <body>
+    <div class="column">
+      <div class="black box center-content">
+        <img
+          src="../pics/Alderaan.png"
+          class="planetclick"
+          onclick="takeToAlderaan()"
+        />
+      </div>
+      <div class="black box">
+        <div class="black mediumbox">
+          <img
+            src="../pics/Tatooine.png"
+            class="planetclick"
+            onclick="takeToTatooine()"
+          />
+        </div>
+        <div class="black smallbox">
+          <img
+            src="../pics/arrow.png"
+            class="arrowclick"
+            onclick="takeToHome()"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="black rectangle">
+        <img
+          src="../pics/Endor.png"
+          class="planetclick"
+          onclick="takeToEndor()"
+        />
+      </div>
+      <div class="black square">
+        <img
+          src="../pics/Death_Star.png"
+          class="planetclick"
+          onclick="takeToDeathStar()"
+        />
+      </div>
+      <div class="black rectangle">
+        <img
+          src="../pics/Mon_Calamari.png"
+          class="planetclick"
+          onclick="takeToMonCalamari()"
+        />
+      </div>
+    </div>
+    <div class="column">
+      <div class="black box">
+        <img
+          src="../pics/Coruscant.png"
+          class="planetclick"
+          onclick="takeToCoruscant()"
+        />
+      </div>
+      <div class="black box">
+        <img
+          src="../pics/Hoth.png"
+          class="planetclick"
+          onclick="takeToHoth()"
+        />
+      </div>
+    </div>
+
+    <script src="map.js"></script>
+  </body>
+</html>
+<audio src="../sounds/Click.m4a" id="click"></audio>
+<audio src="../sounds/blast.m4a" id="click"></audio>

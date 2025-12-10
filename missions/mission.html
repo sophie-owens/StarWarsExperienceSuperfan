@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="mission.css" />
+    <link href="../pics/orange.png" rel="icon" type="image/x-icon" />
+    <title>Tatooine</title>
+  </head>
+  <body>
+    <div class="orange row1 center-content">
+      <img src="../pics/TatooineText.png" />
+    </div>
+    <div class="row2">
+      <div class="tan box2 center-content">
+        <img
+          id="hanchewy"
+          src="../pics/Han-Solo-Chewbacca.png"
+          class="picclick"
+          onclick="playQuote()"
+        />
+      </div>
+      <div class="purple box3">
+        <div class="peach square2">
+          <img src="../pics/TatooineMission.png" />
+        </div>
+        <div class="peach rectangle2 center-content">
+          <img
+            src="../pics/ReturnToMissionTatooine.png"
+            class="returnclick"
+            onclick="returnToMap()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="mission.js"></script>
+  </body>
+</html>
+<audio src="../sounds/Click.m4a" id="click"></audio>
+<audio src="../sounds/ChewbaccaGrowl.mp3" id="growl"></audio>
+<audio src="../sounds/HanQuote.mp3" id="quote"></audio>

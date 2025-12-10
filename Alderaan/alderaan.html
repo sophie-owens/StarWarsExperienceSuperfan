@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="alderaan.css" />
+    <link href="../pics/explosion.png" rel="icon" type="image/x-icon" />
+    <title>Alderaan</title>
+  </head>
+  <body>
+    <div class="purple row1 center-content">
+      <img src="../pics/AlderaanTitle.png" />
+    </div>
+    <div class="row2">
+      <div class="blue box2 center-content">
+        <img
+          src="../pics/ExplodeAlderaan.jpg"
+          class="picclick"
+          onclick="playExplode()"
+        />
+      </div>
+      <div class="purple box3">
+        <div class="green square2 center-content">
+          <img src="../pics/AlderaanMissionPic.png" />
+        </div>
+        <div class="green rectangle2 center-content">
+          <img
+            src="../pics/ReturnToMapAlderaan.png"
+            class="returnclick"
+            onclick="returnToMap()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="alderaan.js"></script>
+  </body>
+</html>
+<audio src="../sounds/Click.m4a" id="click"></audio>
+<audio src="../sounds/AlderaanExploding.mp3" id="boom"></audio>
