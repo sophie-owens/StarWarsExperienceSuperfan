@@ -92,7 +92,6 @@ body {
 img {
   max-height: 100%;
   max-width: 100%;
-  cursor: url("tie.png"), auto;
 }
 /* this class goes on the PARENT div of the image! */
 .center-content {
@@ -152,3 +151,4 @@ img {
     height: 95%;
   }
 }
+
